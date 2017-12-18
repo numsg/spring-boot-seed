@@ -9,7 +9,7 @@
 
 ## 二、maven的groupid、artifactid命名
 1. xx系统中所有的业务模块组件的groupid都命名为：com.numsg.xsystem
-* artifactid命名规则为：numsg-xsystem-[modulename]-services 或 xseed-xsystem-[modulename]-webapi  
+* artifactid命名规则为：numsg-xsystem-[modulename]-services 或 numsg-xsystem-[modulename]-webapi  
 
 ## 三、版本号规则
 1. 采用语义化命名规则，初始版本号为:1.0.0
@@ -30,12 +30,12 @@
 1. 关闭IDEA种子工程 （或使用目录浏览方式打开工程进行修改） 
 2. 修改工程根文件夹名numsg-system1-workspace  
     如修改为system1-module1-workspace
-3. 修改根下面的setting.gradle里面的rootProject.name = 'xseed-system1-workspace'
+3. 修改根下面的setting.gradle里面的rootProject.name = 'numsg-system1-workspace'
 改为rootProject.name = 'system1-module1-workspace'  
-4. 修改所有（包含子模块里面）build.gradle里面的group 'com.numsg.xseed.system1'
+4. 修改所有（包含子模块里面）build.gradle里面的group 'com.numsg.system1'
 改为group 'com.numsg.system1.module1'  
 5. 修改所有的模块名  
-    *  如xseed-system1-backend，右键修改文件夹名为system1-module1-backend
+    *  如numsg-system1-backend，右键修改文件夹名为system1-module1-backend
     *  修改子模块内的build.gradle里面的archivesBaseName
       如archivesBaseName = 'numsg-system1-backend'
        改为archivesBaseName = 'system1-module1-backend'  
