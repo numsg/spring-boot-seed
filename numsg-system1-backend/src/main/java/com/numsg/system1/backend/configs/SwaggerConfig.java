@@ -40,8 +40,8 @@ public class SwaggerConfig {
     //用来创建该API的基本信息，这些信息会展示在文档页面当中
     private ApiInfo aipInfo() {
         return  new ApiInfoBuilder()
-                .title("java-service-seed")
-                .description("java-service-seed API helper")
+                .title("java-numsg-service-seed")
+                .description("java-numsg-service-seed API helper")
                 .build();
     }
 }

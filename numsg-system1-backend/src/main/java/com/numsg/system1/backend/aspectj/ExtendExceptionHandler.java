@@ -1,8 +1,8 @@
 package com.numsg.system1.backend.aspectj;
 
 
-import com.gsafety.springboot.common.exception.HttpError;
-import com.gsafety.springboot.common.exception.RestException;
+import com.numsg.common.exception.HttpError;
+import com.numsg.common.exception.RestException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,9 +1,9 @@
-package com.gsafety.xseed.system1.bz1.service.entity;
+package com.numsg.system1.biz1.service.entity;
 
 import javax.persistence.*;
 
 /**
- * Created by Administrator on 2017/3/3.
+ * Created by numsg on 2017/3/3.
  */
 @Entity
 @Table(name="TEST_USER",schema = "citysafety")

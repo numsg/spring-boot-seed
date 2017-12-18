@@ -1,0 +1,24 @@
+group 'com.numsg.springboot.seed'
+version '1.0.0-SNAPSHOT'
+archivesBaseName = 'numsg-system1-biz1-service'
+
+apply plugin: "net.ltgt.apt"
+
+repositories {
+    mavenCentral()
+}
+dependencies{
+    // 依赖模块
+    /* compile project(":xseed-system1-bz1-contract")
+     compile project(":xseed-system1-common")*/
+
+    compile project(":numsg-system1-common")
+    compile project(":numsg-system1-biz1-contract")
+
+    compile 'org.mapstruct:mapstruct:1.1.0.Final'
+    // OR use this with Java 8 and beyond
+    compile 'org.mapstruct:mapstruct-jdk8:1.1.0.Final'
+
+    apt 'org.mapstruct:mapstruct-processor:1.1.0.Final'
+
+}

@@ -1,0 +1,19 @@
+group 'com.numsg.springboot.seed'
+archivesBaseName = 'numsg-system1-common'
+
+//apply plugin: 'java'
+//apply plugin: 'org.springframework.boot'
+//
+//
+//buildscript {
+//    repositories {
+//        mavenCentral()
+//    }
+//    dependencies {
+//        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.5.1.RELEASE")
+//    }
+//}
+repositories {
+    mavenCentral()
+}
+

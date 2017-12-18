@@ -1,7 +1,4 @@
-package com.gsafety.xseed.system1.bz1.service.entity;
-
-import com.gsafety.odata.service.annotation.ODataColumn;
-import com.gsafety.odata.service.annotation.ODataEntity;
+package com.numsg.system1.biz1.service.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

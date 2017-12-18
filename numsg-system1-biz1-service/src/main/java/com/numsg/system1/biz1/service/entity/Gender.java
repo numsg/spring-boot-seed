@@ -1,10 +1,10 @@
-package com.gsafety.xseed.system1.bz1.service.entity;
+package com.numsg.system1.biz1.service.entity;
 
 
-import com.gsafety.xseed.system1.bz1.service.entity.metadata.EnumValueContract;
+import com.numsg.system1.biz1.service.entity.metadata.EnumValueContract;
 
 /**
- * Created by chenwei on 2016/5/11.
+ * Created by numsg on 2016/5/11.
  */
 public enum Gender implements EnumValueContract<Gender> {
     /**

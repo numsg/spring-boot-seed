@@ -3,7 +3,7 @@ package com.numsg.system1.backend.configs;
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.gsafety.springboot.common.utils.JsonUtil;
+import com.numsg.common.utils.JsonUtil;
 import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -21,7 +21,7 @@ import java.text.SimpleDateFormat;
 import java.util.List;
 
 /**
- * Created by xiaodm on 2016/4/25.
+ * Created by numsg on 2016/4/25.
  * DispatcherServlet的配置
  */
 @Configuration

@@ -1,0 +1,8 @@
+rootProject.name = 'spring-boot-seed'
+include 'numsg-common'
+include 'numsg-system1-common'
+include 'numsg-system1-backend'
+include 'numsg-system1-biz1-contract'
+include 'numsg-system1-biz1-service'
+include 'numsg-system1-biz1-webapi'
+

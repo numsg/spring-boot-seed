@@ -1,0 +1,21 @@
+group 'com.numsg.springboot.seed'
+version '1.0.0-SNAPSHOT'
+
+archivesBaseName = 'numsg-system1-biz1-webapi'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies{
+    // 依赖模块
+    compile project(":numsg-common")
+    compile project(":numsg-system1-common")
+    compile project(":numsg-system1-biz1-contract")
+    compile project(":numsg-system1-biz1-service")
+//    compile  'com.gsafety.odata:guppy-odata-service:1.0.0-SNAPSHOT'
+
+    test {
+        useTestNG()
+    }
+}

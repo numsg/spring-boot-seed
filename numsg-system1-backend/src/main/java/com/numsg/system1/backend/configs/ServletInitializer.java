@@ -4,7 +4,7 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
 
 /**
- * Created by Administrator on 2017/3/2.
+ * Created by numsg on 2017/3/2.
  */
 public class ServletInitializer extends SpringBootServletInitializer {
 

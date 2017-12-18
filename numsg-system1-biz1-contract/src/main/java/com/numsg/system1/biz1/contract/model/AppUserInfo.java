@@ -1,4 +1,4 @@
-package com.gsafety.xseed.system1.bz1.contract.model;
+package com.numsg.system1.biz1.contract.model;
 
 
 import io.swagger.annotations.ApiModel;

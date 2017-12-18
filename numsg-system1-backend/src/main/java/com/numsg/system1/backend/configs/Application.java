@@ -1,6 +1,6 @@
 package com.numsg.system1.backend.configs;
 
-import com.gsafety.xseed.system1.common.configs.XseedSettings;
+import com.numsg.system1.common.NumsgSettings;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
@@ -16,12 +16,12 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 import java.util.Arrays;
 
 /**
- * Created by Administrator on 2017/3/2.
+ * Created by numsg on 2017/3/2.
  */
 @SpringBootApplication
-@EnableConfigurationProperties({XseedSettings.class})
+@EnableConfigurationProperties({NumsgSettings.class})
 @EnableTransactionManagement
-@ComponentScan({"com.gsafety.xseed.system1.*","com.gsafety.odata.*"})
+@ComponentScan({"com.numsg.system1.*"}) //,"com.numsg.odata.*"
 public class Application {
 
     /**

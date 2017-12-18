@@ -1,7 +1,7 @@
 package com.numsg.system1.backend.aspectj;
 
-import com.gsafety.springboot.common.annotation.LimitIPRequestAnnotation;
-import com.gsafety.springboot.common.exception.HttpRestException;
+import com.numsg.common.annotation.LimitIPRequestAnnotation;
+import com.numsg.common.exception.HttpRestException;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.Signature;
 import org.aspectj.lang.annotation.Aspect;
@@ -49,7 +49,7 @@ public class LimitIPRequestAspect {
      *
      * @param joinPoint JoinPoint
      */
-    @Before("execution(* com.gsafety.xseed.system1.bz1.controller.*.*(..)) && @annotation(com.gsafety.springboot.common.annotation.LimitIPRequestAnnotation)")
+    @Before("execution(* com.numsg.system1.biz1.controller.*.*(..)) && @annotation(com.numsg.common.annotation.LimitIPRequestAnnotation)")
     public void requestLimit(JoinPoint joinPoint) {
 
         // 获取HttpRequest

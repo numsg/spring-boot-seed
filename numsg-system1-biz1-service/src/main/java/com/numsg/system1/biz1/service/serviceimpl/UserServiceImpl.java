@@ -1,22 +1,20 @@
-package com.gsafety.xseed.system1.bz1.service.serviceimpl;
+package com.numsg.system1.biz1.service.serviceimpl;
 
 
-import com.gsafety.xseed.system1.bz1.contract.model.AppUserInfo;
-
-import com.gsafety.xseed.system1.bz1.contract.service.UserService;
-import com.gsafety.xseed.system1.bz1.service.datamappers.UserMapper;
-import com.gsafety.xseed.system1.bz1.service.entity.AppUserEntity;
-import com.gsafety.xseed.system1.bz1.service.repository.UserRepository;
+import com.numsg.system1.biz1.contract.model.AppUserInfo;
+import com.numsg.system1.biz1.contract.service.UserService;
+import com.numsg.system1.biz1.service.datamappers.UserMapper;
+import com.numsg.system1.biz1.service.entity.AppUserEntity;
+import com.numsg.system1.biz1.service.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.function.Consumer;
 
 /**
- * Created by Administrator on 2017/3/3.
+ * Created by numsg on 2017/3/3.
  */
 @Service
 @Transactional

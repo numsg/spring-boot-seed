@@ -1,0 +1,8 @@
+group 'com.numsg.springboot.seed'
+version '1.0.0-SNAPSHOT'
+
+archivesBaseName = 'numsg-system1-biz1-contract'
+
+repositories {
+    mavenCentral()
+}

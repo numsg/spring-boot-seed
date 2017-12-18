@@ -1,9 +1,9 @@
-package com.gsafety.xseed.system1.bz1.controller;
+package com.numsg.system1.biz1.webapi;
 
-import com.gsafety.springboot.common.exception.HttpError;
-import com.gsafety.springboot.common.exception.HttpRestException;
-import com.gsafety.xseed.system1.bz1.contract.model.AppUserInfo;
-import com.gsafety.xseed.system1.bz1.contract.service.UserService;
+import com.numsg.common.exception.HttpError;
+import com.numsg.common.exception.HttpRestException;
+import com.numsg.system1.biz1.contract.model.AppUserInfo;
+import com.numsg.system1.biz1.contract.service.UserService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 /**
- * Created by Administrator on 2017/3/3.
+ * Created by numsg on 2017/3/3.
  */
 @RestController
 @RequestMapping(value = "/api/v1", produces = "application/json")

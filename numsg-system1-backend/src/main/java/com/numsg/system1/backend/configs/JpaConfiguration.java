@@ -6,11 +6,11 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 /**
- * Created by Administrator on 2017/3/3.
+ * Created by numsg on 2017/3/3.
  */
 @Configuration
-@EnableJpaRepositories(basePackages = "com.gsafety.xseed.system1")
+@EnableJpaRepositories(basePackages = "com.numsg.system1")
 @EnableAutoConfiguration
-@EntityScan(basePackages = {"com.gsafety.xseed.system1"})
+@EntityScan(basePackages = {"com.numsg.system1"})
 public class JpaConfiguration {
 }

@@ -1,4 +1,4 @@
-package com.gsafety.xseed.system1.bz1.service.entity.metadata;
+package com.numsg.system1.biz1.service.entity.metadata;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -8,7 +8,7 @@ import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
 
 /**
- * Created by xiaodiming on 2016/6/12.
+ * Created by numsg on 2016/6/12.
  * 实体内枚举转换基类
  */
 public abstract class EnumConverterBase<E extends EnumValueContract> {
