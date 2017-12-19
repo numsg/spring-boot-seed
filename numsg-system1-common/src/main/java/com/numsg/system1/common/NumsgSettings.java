@@ -26,4 +26,5 @@ public class NumsgSettings {
     public void setUrl2(String url2) {
         this.url2 = url2;
     }
+
 }
