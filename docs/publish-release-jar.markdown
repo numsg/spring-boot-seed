@@ -99,6 +99,12 @@ uploadArchives{
 3. 导出私钥secret.gpg文件 Exports Secret Key...
 4. Send Keys (send a public key server ("hkp://keys.gnupg.net"))
 
+通过公约 Key id在 http://keys.gnupg.net/ 查询
+![](./images/key-search.png)
+查询结果：
+![](./images/search-result.png)
+
+
 使用secret.gpg文件对jar包进行加密
 ```
 apply plugin: 'signing' //使用signing plugin做数字签名
