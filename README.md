@@ -5,6 +5,7 @@
 > 3. [如何正确使用http码](docs/how-to-use-http-status-code.markdown)
 > 4. [分布式事务处理](docs/distributed-transactional.markdown)
 > 5. [集成OData](docs/handler-odata.markdown)
+> 6. [上传jar包到中央仓库](docs/publish-release-jar.markdown)
 
 ## 一、介绍
 这个过程结构主要是解决在规模较大的软件项目中目录结构、工程结构等等。
