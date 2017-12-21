@@ -28,4 +28,4 @@ gradle build  或gradlew  build          -- 编译
 gradle build --refresh-dependencies     --编译并下载最新依赖包  
 
 
-如果使用tomcat运行发生异常，建议更新tomcat版本到apache-tomcat-8.5.9
+`注意： 如果使用tomcat运行发生异常，建议更新tomcat版本到apache-tomcat-8.5.9`
