@@ -4,7 +4,7 @@
 > 2. [spring正确使用事务](docs/how-to-use-transactional.markdown)
 > 3. [如何正确使用http码](docs/how-to-use-http-status-code.markdown)
 > 4. [分布式事务处理](docs/distributed-transactional.markdown)
-> 5. [集成OData](docs/handler-odata.markdown)
+> 5. [集成OData](https://github.com/numsg/numsg-odata#31-%E4%B8%8Espring-boot-seed%E9%9B%86%E6%88%90)
 > 6. [上传jar包到中央仓库](docs/publish-release-jar.markdown)
 
 ## 一、介绍
