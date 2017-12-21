@@ -1,6 +1,7 @@
 package com.numsg.system1.biz1.webapi;
 
 
+import com.numsg.odata.service.NumsgODataController;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -11,6 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 @CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/OdataService.svc/**")
-public class ODataController {//extends NumsgODataController {
+public class ODataController extends NumsgODataController {
 
 }

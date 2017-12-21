@@ -1,5 +1,8 @@
 package com.numsg.system1.biz1.service.entity;
 
+import com.numsg.odata.service.annotation.ODataColumn;
+import com.numsg.odata.service.annotation.ODataEntity;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.ManyToOne;
@@ -9,7 +12,7 @@ import java.util.Date;
  * Created by gaoqiang on 2017/4/25.
  */
 @Entity(name = "CAR")
-//@ODataEntity(expose = true)
+@ODataEntity(expose = true)
 public class Car {
 
     @javax.persistence.Id
@@ -20,7 +23,7 @@ public class Car {
     private String Model;
 
     @Column(name = "MODELYEAR")
-//    @ODataColumn(expose = true)
+    @ODataColumn(expose = true)
     private String ModelYear;
 
     @Column(name = "PRICE")

@@ -21,7 +21,7 @@ import java.util.Arrays;
 @SpringBootApplication
 @EnableConfigurationProperties({NumsgSettings.class})
 @EnableTransactionManagement
-@ComponentScan({"com.numsg.system1.*"}) //,"com.numsg.odata.*"
+@ComponentScan({"com.numsg.system1.*", "com.numsg.odata.*"})
 public class Application {
 
     /**
